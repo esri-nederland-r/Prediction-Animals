@@ -1,6 +1,6 @@
 tool_exec <- function(in_params, out_params)
 {
-  # load the required packages
+  # load the required packages.
   cat(paste0("\n", "Loading packages...", "\n"))
   
   if (!requireNamespace("dismo", quietly = TRUE))
